@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/afra50/Pokorski-Bartek/static/css/main.e73fa9c5.css",
-    "main.js": "/afra50/Pokorski-Bartek/static/js/main.c48fe4d8.js",
-    "static/media/portfolio_home.jpg": "/afra50/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
-    "static/media/about_home.jpg": "/afra50/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
-    "static/media/kia-logo.png": "/afra50/Pokorski-Bartek/static/media/kia-logo.59a50cb9061b3718337f.png",
-    "static/media/hero_section.jpg": "/afra50/Pokorski-Bartek/static/media/hero_section.bbf88631d9ee4a7a369f.jpg",
-    "static/media/graf.jpg": "/afra50/Pokorski-Bartek/static/media/graf.5d8830de61211dddb390.jpg",
-    "static/media/polsat-games-logo.png": "/afra50/Pokorski-Bartek/static/media/polsat-games-logo.353ea04544756a420fc5.png",
-    "static/media/mighty-koi.png": "/afra50/Pokorski-Bartek/static/media/mighty-koi.c9b8c6f58c1649ae8574.png",
-    "static/media/kitkat-logo.png": "/afra50/Pokorski-Bartek/static/media/kitkat-logo.1153bea00c92f0525bb1.png",
-    "static/media/digital-dragons.png": "/afra50/Pokorski-Bartek/static/media/digital-dragons.37bb7002495aab1f6707.png",
-    "static/media/kinguin-logo.png": "/afra50/Pokorski-Bartek/static/media/kinguin-logo.e800697128e16d5a3097.png",
-    "static/media/inea-logo.png": "/afra50/Pokorski-Bartek/static/media/inea-logo.2b1c4ac0c096d5b19f1b.png",
-    "static/media/frenzy-logo.webp": "/afra50/Pokorski-Bartek/static/media/frenzy-logo.42afff0a9812a70a8a8d.webp",
-    "static/media/PB_trans.svg": "/afra50/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
-    "index.html": "/afra50/Pokorski-Bartek/index.html",
-    "main.e73fa9c5.css.map": "/afra50/Pokorski-Bartek/static/css/main.e73fa9c5.css.map",
-    "main.c48fe4d8.js.map": "/afra50/Pokorski-Bartek/static/js/main.c48fe4d8.js.map"
+    "main.css": "/Pokorski-Bartek/static/css/main.4ce6a842.css",
+    "main.js": "/Pokorski-Bartek/static/js/main.2ddf0d18.js",
+    "static/media/portfolio_home.jpg": "/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
+    "static/media/about_home.jpg": "/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
+    "static/media/kia-logo.png": "/Pokorski-Bartek/static/media/kia-logo.59a50cb9061b3718337f.png",
+    "static/media/hero_section.jpg": "/Pokorski-Bartek/static/media/hero_section.bbf88631d9ee4a7a369f.jpg",
+    "static/media/graf.jpg": "/Pokorski-Bartek/static/media/graf.5d8830de61211dddb390.jpg",
+    "static/media/polsat-games-logo.png": "/Pokorski-Bartek/static/media/polsat-games-logo.353ea04544756a420fc5.png",
+    "static/media/mighty-koi.png": "/Pokorski-Bartek/static/media/mighty-koi.c9b8c6f58c1649ae8574.png",
+    "static/media/kitkat-logo.png": "/Pokorski-Bartek/static/media/kitkat-logo.1153bea00c92f0525bb1.png",
+    "static/media/digital-dragons.png": "/Pokorski-Bartek/static/media/digital-dragons.37bb7002495aab1f6707.png",
+    "static/media/kinguin-logo.png": "/Pokorski-Bartek/static/media/kinguin-logo.e800697128e16d5a3097.png",
+    "static/media/inea-logo.png": "/Pokorski-Bartek/static/media/inea-logo.2b1c4ac0c096d5b19f1b.png",
+    "static/media/frenzy-logo.webp": "/Pokorski-Bartek/static/media/frenzy-logo.42afff0a9812a70a8a8d.webp",
+    "static/media/PB_trans.svg": "/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
+    "index.html": "/Pokorski-Bartek/index.html",
+    "main.4ce6a842.css.map": "/Pokorski-Bartek/static/css/main.4ce6a842.css.map",
+    "main.2ddf0d18.js.map": "/Pokorski-Bartek/static/js/main.2ddf0d18.js.map"
   },
   "entrypoints": [
-    "static/css/main.e73fa9c5.css",
-    "static/js/main.c48fe4d8.js"
+    "static/css/main.4ce6a842.css",
+    "static/js/main.2ddf0d18.js"
   ]
 }
