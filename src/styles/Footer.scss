@@ -1,0 +1,96 @@
+@import './variables';
+
+#contact-section {
+    background-color: $color-secondary; // Ciemne tło dla kontrastu
+    color: $color-text;
+    padding: 3rem;
+
+    .contact-content {
+        margin: 0 auto;
+
+        h2 {
+            font-family: $font-body;
+            font-weight: bold;
+            font-size: 4rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: $color-accent-blue;
+            width: fit-content;
+            border-bottom: 3px solid $color-accent-blue;
+            text-transform: uppercase;
+        }
+
+        form {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+
+            label {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                color: $color-text;
+                font-size: 1rem;
+                font-family: $font-body;
+                gap: 20px;
+
+                input,
+                textarea {
+                    font-family: $font-body;
+                    font-size: 1rem;
+                    padding: 0.5rem;
+                    border: 1px solid $color-accent-blue;
+                    background-color: $color-secondary;
+                    color: $color-text;
+                    height: 40px;
+                    text-align: center;
+                }
+
+                textarea {
+                    resize: none; // Brak możliwości zmiany rozmiaru
+                }
+
+                input:focus,
+                textarea:focus {
+                    outline: none;
+                    border-color: $color-accent-gold;
+                }
+            }
+
+            button {
+                background-color: $color-accent-gold;
+                color: $color-background;
+                border: none;
+                padding: 0.5rem 1.5rem;
+                font-size: 1.3rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: $font-body;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: $color-accent-blue;
+                }
+            }
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            margin-top: 3rem;
+
+            p {
+                display: inline-block;
+                margin-right: 2rem;
+                color: $color-text;
+                font-family: $font-body;
+
+                span {
+                    margin: 0 0.5rem;
+                }
+            }
+        }
+    }
+}

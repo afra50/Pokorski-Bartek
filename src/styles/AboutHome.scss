@@ -1,0 +1,100 @@
+@import './variables';
+
+#about-section {
+    background-image: url('../assets/about_home.jpg'); // Ścieżka do zdjęcia tła
+    background-size: cover; // Dopasowanie obrazu do sekcji
+    background-position: center; // Wyśrodkowanie tła
+    background-attachment: fixed; // Efekt parallax (opcjonalnie)
+    color: $color-text;
+    padding: 4rem 2rem;
+    position: relative;
+
+    // Przyciemnienie tła dla lepszej czytelności tekstu
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); // Czarny półprzezroczysty filtr
+        z-index: 1;
+    }
+
+    .about-content {
+        position: relative;
+        z-index: 2; // Wyświetlenie ponad filtrem
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            font-family: $font-body;
+            font-weight: bold;
+            font-size: 4rem;
+            padding: 1rem 4rem;
+            margin-bottom: 1.5rem;
+            color: $color-accent-blue;
+            width: fit-content;
+            justify-self: center;
+            border-bottom: 3px solid $color-accent-blue;
+            text-transform: uppercase;
+        }
+
+        .description {
+            font-family: $font-body;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            color: $color-text;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+            gap: 1rem;
+            justify-content: center;
+
+            li {
+                font-size: 1rem;
+                font-family: $font-heading;
+                line-height: 1.6;
+                position: relative;
+                padding-left: 2rem;
+                color: $color-text;
+
+                &:before {
+                    content: '•';
+                    margin-right: 1rem;
+                    font-size: 1.5rem;
+                    color: $color-accent-blue;
+                }
+
+                .highlight {
+                    color: $color-accent-gold;
+                }
+            }
+        }
+
+        .cta-button {
+            background-color: $color-accent-gold;
+            color: $color-background;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: $font-body;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: $color-accent-blue;
+            }
+        }
+    }
+}

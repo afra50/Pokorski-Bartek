@@ -1,0 +1,17 @@
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Miks do wielokrotnego użycia
+@mixin animation-fade-in-slide-up($delay: 0s) {
+    animation: fadeInSlideUp 1s ease-in-out $delay forwards;
+    opacity: 0; // Ustaw początkową wartość
+}
