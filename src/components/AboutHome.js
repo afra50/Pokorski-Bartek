@@ -20,7 +20,9 @@ function AboutHome() {
           <li>Building long-term partnerships with clients</li>
           <li>
             Mastering a variety of video editing software, e.g.{" "}
-            <span className="highlight">Adobe Premiere Pro</span>
+            <span className="highlight">
+              Adobe Premiere Pro, AVID Media Composer or Magix Vegas
+            </span>
           </li>
         </ul>
         <button className="cta-button">Read More</button>
