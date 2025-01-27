@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Footer.scss";
+import axios from "axios";
 
 function Footer() {
   const [formData, setFormData] = useState({
@@ -16,10 +17,24 @@ function Footer() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Thank you, ${formData.name}. We will contact you soon!`);
-    // Tu możesz dodać obsługę wysyłki formularza.
+    try {
+      const backendUrl = process.env.REACT_APP_BACKEND_URL; // Pobranie adresu z .env
+      const response = await axios.post(`${backendUrl}/api/contact`, formData);
+      console.log(response.data);
+      alert(`Dziękujemy, ${formData.name}. Skontaktujemy się z Tobą wkrótce!`);
+      setFormData({
+        name: "",
+        message: "",
+        email: "",
+      });
+    } catch (error) {
+      console.error("Błąd podczas wysyłania wiadomości:", error);
+      alert(
+        "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później."
+      );
+    }
   };
 
   return (
@@ -63,11 +78,11 @@ function Footer() {
         </form>
         <div className="contact-info">
           <p>
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
             <span>+48 535 823 255</span>
           </p>
           <p>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <span>bartekgm0@gmail.com</span>
           </p>
         </div>

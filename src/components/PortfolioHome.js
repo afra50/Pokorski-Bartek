@@ -4,11 +4,11 @@ import "../styles/PortfolioHome.scss";
 function PortfolioHome() {
   const projects = [
     {
-      title: "Digital Dragons Awards",
+      title: "Droga do esportu",
       videoUrl: "https://www.youtube.com/embed/6DQv-_WnIYk",
     },
     {
-      title: "Droga do esportu",
+      title: "Digital Dragons Awards",
       videoUrl: "https://www.youtube.com/embed/Jx9Urm65UWY",
     },
     {
