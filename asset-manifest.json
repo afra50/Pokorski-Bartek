@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pokorski-Bartek/static/css/main.96564f4f.css",
-    "main.js": "/Pokorski-Bartek/static/js/main.f0dfa997.js",
+    "main.js": "/Pokorski-Bartek/static/js/main.f90075ae.js",
     "static/media/portfolio_home.jpg": "/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
     "static/media/about_home.jpg": "/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
     "static/media/kia-logo.png": "/Pokorski-Bartek/static/media/kia-logo.59a50cb9061b3718337f.png",
@@ -17,10 +17,10 @@
     "static/media/PB_trans.svg": "/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
     "index.html": "/Pokorski-Bartek/index.html",
     "main.96564f4f.css.map": "/Pokorski-Bartek/static/css/main.96564f4f.css.map",
-    "main.f0dfa997.js.map": "/Pokorski-Bartek/static/js/main.f0dfa997.js.map"
+    "main.f90075ae.js.map": "/Pokorski-Bartek/static/js/main.f90075ae.js.map"
   },
   "entrypoints": [
     "static/css/main.96564f4f.css",
-    "static/js/main.f0dfa997.js"
+    "static/js/main.f90075ae.js"
   ]
 }
