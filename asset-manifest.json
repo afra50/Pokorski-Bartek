@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pokorski-Bartek/static/css/main.25a08118.css",
-    "main.js": "/Pokorski-Bartek/static/js/main.e40c0cb4.js",
+    "main.css": "/Pokorski-Bartek/static/css/main.98068dae.css",
+    "main.js": "/Pokorski-Bartek/static/js/main.e289f832.js",
     "static/media/portfolio_home.jpg": "/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
     "static/media/about_home.jpg": "/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
     "static/media/bartek.jpg": "/Pokorski-Bartek/static/media/bartek.5d0260dabf5bf3e839c2.jpg",
@@ -17,11 +17,11 @@
     "static/media/frenzy-logo.webp": "/Pokorski-Bartek/static/media/frenzy-logo.42afff0a9812a70a8a8d.webp",
     "static/media/PB_trans.svg": "/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
     "index.html": "/Pokorski-Bartek/index.html",
-    "main.25a08118.css.map": "/Pokorski-Bartek/static/css/main.25a08118.css.map",
-    "main.e40c0cb4.js.map": "/Pokorski-Bartek/static/js/main.e40c0cb4.js.map"
+    "main.98068dae.css.map": "/Pokorski-Bartek/static/css/main.98068dae.css.map",
+    "main.e289f832.js.map": "/Pokorski-Bartek/static/js/main.e289f832.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a08118.css",
-    "static/js/main.e40c0cb4.js"
+    "static/css/main.98068dae.css",
+    "static/js/main.e289f832.js"
   ]
 }
