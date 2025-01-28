@@ -1,0 +1,33 @@
+@import "../variables.scss";
+
+#not-found {
+    place-items: center;
+    padding: 5rem 0;
+    background-color: $color-text;
+
+    h1 {
+        font-family: $font-heading;
+        color: $color-background;
+        margin-bottom: 2rem;
+    }
+
+    i {
+        font-size: 10rem;
+        color: $color-secondary;
+    }
+
+    p {
+        font-family: $font-body;
+        color: $color-secondary;
+        margin: 2rem 0;
+        font-size: 1.5rem;
+    }
+
+    a {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $color-background;
+        font-size: 2rem;
+    }
+}
