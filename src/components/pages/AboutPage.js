@@ -42,11 +42,11 @@ function AboutPage() {
           <h1>How I became a multifaceted editor</h1>
           <p>
             With over a decade of experience in video editing within my{" "}
-            <Link to="/on-youtube">YouTube channel</Link>, I’ve developed my
-            skillset by working with renowned brands and diverse creators across
-            the industry. From large-scale TV productions and commercials to
-            YouTube content and music videos, my work combines technical
-            expertise with a strong creative vision.
+            <Link to="/on-youtube">YouTube channel</Link> and commercial career,
+            I’ve developed my skillset by working with renowned brands and
+            diverse creators across the industry. From large-scale TV
+            productions and commercials to YouTube content and music videos, my
+            work combines technical expertise with a strong creative vision.
           </p>
           <p>
             Driven by a passion for video editing and creativity, I specialize

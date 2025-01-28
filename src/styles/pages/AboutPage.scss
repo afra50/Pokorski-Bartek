@@ -152,7 +152,7 @@
 
 
     .languages-section {
-        text-align: right;
+        text-align: left;
         margin-top: 3rem;
 
         h3 {
@@ -162,7 +162,6 @@
             margin-bottom: 1rem;
             width: fit-content;
             border-bottom: 3px solid $color-accent-gold;
-            justify-self: right;
             padding: 0.5rem
         }
 
