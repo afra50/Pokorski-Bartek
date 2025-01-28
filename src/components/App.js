@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
+import PastCollaborations from "./pages/PastCollaborations";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/past-collaborations" element={<PastCollaborations />} />
         </Routes>
         <Footer />
       </div>
