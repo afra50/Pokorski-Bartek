@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pokorski-Bartek/static/css/main.9dc16c30.css",
-    "main.js": "/Pokorski-Bartek/static/js/main.dd3557b4.js",
+    "main.js": "/Pokorski-Bartek/static/js/main.b2a9b1ed.js",
     "static/media/portfolio_home.jpg": "/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
     "static/media/about_home.jpg": "/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
     "static/media/bartek.jpg": "/Pokorski-Bartek/static/media/bartek.5d0260dabf5bf3e839c2.jpg",
@@ -18,10 +18,10 @@
     "static/media/PB_trans.svg": "/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
     "index.html": "/Pokorski-Bartek/index.html",
     "main.9dc16c30.css.map": "/Pokorski-Bartek/static/css/main.9dc16c30.css.map",
-    "main.dd3557b4.js.map": "/Pokorski-Bartek/static/js/main.dd3557b4.js.map"
+    "main.b2a9b1ed.js.map": "/Pokorski-Bartek/static/js/main.b2a9b1ed.js.map"
   },
   "entrypoints": [
     "static/css/main.9dc16c30.css",
-    "static/js/main.dd3557b4.js"
+    "static/js/main.b2a9b1ed.js"
   ]
 }
