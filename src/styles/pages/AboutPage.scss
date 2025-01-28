@@ -198,3 +198,53 @@
         transform: translateX(0);
     }
 }
+
+@media (max-width: 1200px) {
+    #about-page {
+        padding: 2rem;
+
+        .about-hero {
+            margin: 0 auto;
+            margin-bottom: 3rem;
+            width: auto;
+            display: flex;
+
+            .hero-image {
+                position: static;
+                align-content: center;
+                padding: 3rem;
+
+                img {
+                    max-width: 300px;
+                }
+            }
+
+            .hero-text {
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    #about-page {
+        padding: 2rem 5rem;
+
+        .about-hero {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .hero-image {
+
+                img {}
+            }
+
+            .hero-text {
+                padding-bottom: 3rem;
+                width: 80%;
+                padding: 0;
+                text-align: center;
+            }
+        }
+    }
+}
