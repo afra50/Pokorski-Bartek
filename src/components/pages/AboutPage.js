@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/pages/AboutPage.scss";
 import bartekzdjecie from "../../assets/bartek.jpg";
 
@@ -38,10 +39,11 @@ function AboutPage() {
     <section id="about-page">
       <div className="about-hero">
         <div className="hero-text">
-          <h1>How I became a creative video editor</h1>
+          <h1>How I became a multifaceted editor</h1>
           <p>
-            With over a decade of experience in video editing, I’ve developed my
-            skills by working with renowned brands and diverse creators across
+            With over a decade of experience in video editing within my{" "}
+            <Link to="/on-youtube">YouTube channel</Link>, I’ve developed my
+            skillset by working with renowned brands and diverse creators across
             the industry. From large-scale TV productions and commercials to
             YouTube content and music videos, my work combines technical
             expertise with a strong creative vision.

@@ -42,7 +42,7 @@ function Header() {
         </li>
         <li className="menu-item">
           <NavLink
-            to="/youtube"
+            to="/on-youtube"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             On YouTube

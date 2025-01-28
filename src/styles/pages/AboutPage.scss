@@ -29,6 +29,11 @@
                 line-height: 1.8;
                 color: $color-text;
                 margin-bottom: 1rem;
+
+                a {
+                    color: $color-accent-gold;
+                    text-decoration: none;
+                }
             }
         }
 
@@ -69,12 +74,12 @@
             justify-content: center;
             font-family: $font-body;
             text-transform: uppercase;
-            font-size: 1.1rem;
+            font-size: 0.9rem;
 
             li {
-                flex: 1 1 calc(33.333% - 1.5rem);
-                max-width: 300px;
-                min-width: 200px;
+                flex: 1 1 calc(25% - 1.5rem);
+                max-width: 20vw;
+                min-width: 10vw;
                 margin-bottom: 1.5rem;
                 letter-spacing: 0.05rem;
                 color: $color-text;
@@ -252,6 +257,35 @@
                 padding-bottom: 3rem;
                 text-align: center;
                 font-size: 1.5vh;
+            }
+        }
+
+        .programs-section {
+
+            ul {
+                font-size: 0.7rem;
+
+                li {
+                    flex: 1 1 calc(33.333% - 1.5rem);
+                    max-width: 30vw;
+                    min-width: 20vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #about-page {
+        .programs-section {
+            ul {
+                font-size: 1rem;
+
+                li {
+                    flex: 1 1 calc(50% - 1.5rem);
+                    max-width: 60vw;
+                    min-width: 30vw;
+                }
             }
         }
     }
