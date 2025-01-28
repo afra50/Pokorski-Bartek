@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/AboutHome.scss";
 
 function AboutHome() {
@@ -25,7 +26,9 @@ function AboutHome() {
             </span>
           </li>
         </ul>
-        <button className="cta-button">Read More</button>
+        <Link to="/about" className="cta-button">
+          Read More
+        </Link>
       </div>
     </section>
   );

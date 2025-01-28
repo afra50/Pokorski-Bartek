@@ -91,6 +91,7 @@
             font-family: $font-body;
             cursor: pointer;
             transition: background-color 0.3s;
+            text-decoration: none;
 
             &:hover {
                 background-color: $color-accent-blue;
