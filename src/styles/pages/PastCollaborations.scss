@@ -1,0 +1,140 @@
+@import "../variables.scss";
+
+// Animacja fade-in + slide-in dla sekcji klienta
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Animacja pulsu dla logo (2 powtórzenia)
+@keyframes logoPulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.04);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.past-collaborations {
+    width: 100%;
+    background-color: $color-background;
+    padding: 0;
+    margin: 0;
+
+    h2 {
+        font-size: 4rem;
+        font-family: $font-body;
+        text-align: center;
+        margin-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        color: $color-accent-blue;
+    }
+
+    .client-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90vh;
+        padding: 0 10%;
+        background: $color-background;
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease-out, transform 1s ease-out;
+
+        &:nth-child(even) {
+            background: $color-secondary;
+
+            .client-info {
+
+                h3,
+                a {
+                    color: $color-accent-gold;
+                }
+
+                a {
+                    &:hover {
+                        color: $color-accent-blue;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(odd) {
+            flex-direction: row-reverse;
+
+            .client-info {
+
+                h3,
+                a {
+                    color: $color-accent-blue;
+                }
+
+                a {
+                    &:hover {
+                        color: $color-accent-gold;
+                    }
+                }
+            }
+        }
+
+        &.visible {
+            opacity: 1;
+            transform: translateY(0);
+            animation: fadeSlideIn 1s ease-out;
+        }
+
+        .client-logo {
+            max-width: 300px;
+            max-height: 300px;
+            object-fit: contain;
+        }
+
+        .client-logo.animate {
+            animation: logoPulse 1.5s ease-in-out 2;
+        }
+
+        .client-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 600px;
+            font-family: $font-body;
+
+            h3 {
+                font-size: 3rem;
+                margin-bottom: 1rem;
+                font-family: $font-heading;
+                text-transform: uppercase;
+            }
+
+            .client-description {
+                font-size: 1.1rem;
+                line-height: 1.7;
+                word-spacing: 0.1rem;
+                color: $color-text;
+                margin: 1.5rem 0;
+            }
+
+            a {
+                display: inline-block;
+                margin-top: 1rem;
+                font-size: 1.5rem;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
