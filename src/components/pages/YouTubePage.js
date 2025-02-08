@@ -30,7 +30,14 @@ function YouTubePage() {
       description:
         "A satirical review series exposing the most notorious gaming disasters. Expect humor, criticism and the subsequent text-to-speech narration!",
       playlistLink: "https://www.youtube.com/playlist?list=PLF18D30E340EF0824",
-      videos: ["psgyZpyl22Y", "nyv6jVAe5z4", "XHzRv0q6WkQ", "amVldEW0AUs"],
+      videos: [
+        "3RqsLKHRUWg",
+        "mXVqA4ZRiwI",
+        "XHzRv0q6WkQ",
+        "TpsDcL4g2Yk",
+        "qmkcBODHbQI",
+        "1RW4nzZUxtE",
+      ],
     },
     {
       title: "Steam Anomalies",
@@ -38,14 +45,21 @@ function YouTubePage() {
         "Unscripted deep dives into suspicious titles and shady practices on Steam. Some games are bizarre, some are downright broken!",
       playlistLink:
         "https://www.youtube.com/playlist?list=PLwkNsVw7yojk9_ZOwq2dqzyx-vpVWkBPP",
-      videos: ["5xObshAEcmQ", "V7xgGiZz0_w", "wrefSERFmJ4", "XzXi7_NssMk"],
+      videos: [
+        "5xObshAEcmQ",
+        "J7rqt7YuTgo",
+        "MSv-jAK3qG0",
+        "FcXWKSSrz-Y",
+        "V7xgGiZz0_w",
+        "wrefSERFmJ4",
+      ],
     },
     {
       title: "Games You've Never Heard Of",
       description:
         "A showcase of lesser-known indie games, often created by solo developers. Hidden gems or forgettable experiments? Let's find out!",
       playlistLink: "https://www.youtube.com/playlist?list=PLF47C346E2A29836B",
-      videos: ["J9k2ONHhJZ8", "jPajxnLdD7s", "-QVRmAmEADM", "8hI6eXdUiSQ"],
+      videos: ["8hI6eXdUiSQ", "-QVRmAmEADM", "jPajxnLdD7s", "EUXZId6uFBY"],
     },
     {
       title: "Video Game Journalism",
@@ -53,7 +67,7 @@ function YouTubePage() {
         "Extensive video publications in the form of game reviews and top-10 lists. Honest opinions, in-depth analysis, and barrels of fun!",
       playlistLink:
         "https://www.youtube.com/playlist?list=PLwkNsVw7yojnGC0tJpM6ATxM3nizqaORe",
-      videos: ["qbzbTbN-CAo", "RaEYFUs80Zk", "Zv4onqgyz8Q"],
+      videos: ["qbzbTbN-CAo", "Zv4onqgyz8Q", "YXAIxS-_zHo", "RaEYFUs80Zk"],
     },
     {
       title: "Controlled Explosion",
