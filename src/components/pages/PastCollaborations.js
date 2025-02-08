@@ -16,63 +16,56 @@ const clients = [
     logo: polsatGamesLogo,
     url: "https://www.polsatgames.pl/",
     description:
-      "I collaborated with Polsat Games on multiple high-profile esports and entertainment productions. My responsibilities included full-scale post-production, video editing, sound design, and visual effects. I worked on popular TV shows, esports broadcasts, and promotional campaigns, ensuring high-quality content for audiences. Key projects included Digital Dragons Awards coverage, exclusive game-related shows, and esports event analysis.",
+      "I have worked with Polsat Games on several high-profile esports and entertainment productions. My responsibilities included extensive post-production, video editing, and sound design. I worked on popular TV shows, esports broadcasts, and promotional campaigns, ensuring high-quality content for audiences. Key projects included the Digital Dragons Awards ceremony, exclusive gaming shows, and esports championships.",
   },
   {
     name: "Frenzy",
     logo: frenzyLogo,
     url: "https://frenzy.pl/",
     description:
-      "I contributed to various projects with Frenzy, a leading esports production company. My responsibilities included video editing, post-production, and motion graphics for multiple gaming shows, including 'Gry Komputerowe Show' and 'Deja Vu – Kultowe Gry'. Additionally, I provided assistance in creating promotional content and social media videos aimed at increasing engagement within the esports community.",
+      "I contributed to various projects at Frenzy, a leading full-service production house. My role included video editing, post-production, and motion graphics for numerous TV shows, including 'Gry Komputerowe Show,' 'LEVEL 11,' and 'FAUX PAUX.'. I also assisted in the creation of promotional content and social media videos aimed at increasing engagement within the gaming and esports community.",
   },
   {
     name: "Digital Dragons",
     logo: digitalDragonsLogo,
     url: "https://digitaldragons.pl/",
     description:
-      "I worked closely with Digital Dragons, one of the most prestigious gaming industry events in Europe. I delivered high-quality audiovisual materials for the 'Digital Dragons Awards' ceremony, including event highlight reels, interviews, and promotional content. The project involved coordination with industry professionals, ensuring a polished final product that resonated with gaming enthusiasts worldwide.",
+      "I worked with Digital Dragons, one of the most prestigious gaming industry events in Europe. I delivered premium audiovisual assets for the Digital Dragons Awards ceremony, editing game trailers for the nominees and winners video sections and audiovisual work for the entire show. The project involved coordination with industry experts to ensure a polished end product that would resonate with gaming enthusiasts around the world.",
   },
   {
     name: "Kia",
     logo: kiaLogo,
     url: "https://www.kia.com/",
     description:
-      "I supported Kia in developing engaging promotional materials targeting the gaming and esports community. I designed and edited branded video content for digital campaigns, integrating Kia’s branding seamlessly into esports and gaming-related media. The project aimed to enhance Kia’s visibility within the gaming space, connecting with younger, tech-savvy audiences.",
+      "I supported Kia in developing engaging video content for the gaming and esports community. I designed and edited video interviews with esports icons for digital campaigns, seamlessly integrating Kia's branding into gaming-related media. The project aimed to enhance Kia's visibility in the gaming space and connect with a younger, tech-savvy audience.",
   },
   {
     name: "Inea",
     logo: ineaLogo,
     url: "https://www.inea.pl/",
     description:
-      "I collaborated with Inea on multiple esports-related productions, incorporating the brand into gaming content. My responsibilities included editing event recap videos, creating social media clips, and ensuring that Inea’s branding aligned with the gaming culture. The content I produced helped Inea establish a stronger presence within the competitive gaming industry.",
-  },
-  {
-    name: "Graf",
-    logo: grafLogo,
-    url: "https://www.youtube.com/@graf",
-    description:
-      "I played a key role in the growth of the Graf YouTube channel by providing high-quality video editing and content creation. I focused on gaming-related videos, engaging montages, and entertaining narratives that attracted a broad audience. I helped elevate the channel’s production value, increasing subscriber engagement and reach.",
+      "I collaborated with Inea on a gaming-related production, incorporating the brand into sim racing content. My involvement included the comprehensive postproduction of a TV series called 'INEA Star Race' and ensuring that Inea's branding aligned with the gaming culture.",
   },
   {
     name: "KitKat",
     logo: kitkatLogo,
     url: "https://www.kitkat.pl/",
     description:
-      "I produced branded video content for KitKat, focusing on integrating the product naturally into gaming and digital entertainment settings. I developed creative ad spots, influencer collaborations, and event-based promotional materials. I ensured that the content aligned with KitKat’s fun and relaxed brand image while appealing to the gaming community.",
+      "I edited branded video content for KitKat, focusing on integrating the product naturally into gaming and digital entertainment settings. I developed creative advertisements and event-based promotional materials. I ensured the content matched KitKat's fun and relaxed brand image while appealing to the esports' community.",
   },
   {
     name: "KinGuin",
     logo: kinguinLogo,
     url: "https://www.kinguin.net/",
     description:
-      "I worked on video marketing campaigns for KinGuin, an online marketplace for gaming products. I edited and produced engaging video advertisements, event sponsorship content, and community-focused projects. I helped KinGuin strengthen its connection with gamers through high-quality visuals and storytelling.",
+      "I worked on corporate content for Kinguin, an online marketplace for gaming products. I was responsible for the post-production of a series of videos about Kinguin's partnership with Google. I helped Kinguin strengthen their connection with its partner through high-value visuals and storytelling.",
   },
   {
     name: "Mighty Koi",
     logo: mightyKoiLogo,
     url: "https://www.mighty-koi.com",
     description:
-      "I teamed up with Mighty Koi to create dynamic and engaging video content for gaming and entertainment projects. I assisted in the development of promotional videos, trailers, and digital campaigns aimed at gaming audiences. I focused on delivering visually compelling content that showcased Mighty Koi’s expertise in the industry.",
+      "I teamed up with Mighty Koi to create dynamic and engaging video content for gaming and entertainment projects. I assisted in the development of TV promotional material and a digital event aimed at shareholders and gaming audiences. I focused on delivering visually compelling content that showcased Mighty Koi's expertise in the industry.",
   },
 ];
 

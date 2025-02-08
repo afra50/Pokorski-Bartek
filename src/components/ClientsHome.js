@@ -25,7 +25,6 @@ function ClientsHome() {
     },
     { name: "Kia", logo: kiaLogo, url: "https://www.kia.com/" },
     { name: "Inea", logo: ineaLogo, url: "https://www.inea.pl/" },
-    { name: "Graf", logo: grafLogo, url: "https://www.youtube.com/@graf" },
     { name: "KitKat", logo: kitkatLogo, url: "https://www.kitkat.pl/" },
     { name: "KinGuin", logo: kinguinLogo, url: "https://www.kinguin.net/" },
     {
