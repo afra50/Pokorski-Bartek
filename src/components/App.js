@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import PastCollaborations from "./pages/PastCollaborations";
+import YouTubePage from "./pages/YouTubePage";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/past-collaborations" element={<PastCollaborations />} />
-
+          <Route path="/on-youtube" element={<YouTubePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
