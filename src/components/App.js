@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import PastCollaborations from "./pages/PastCollaborations";
 import YouTubePage from "./pages/YouTubePage";
+import PortfolioPage from "./pages/PortfolioPage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/past-collaborations" element={<PastCollaborations />} />
           <Route path="/on-youtube" element={<YouTubePage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

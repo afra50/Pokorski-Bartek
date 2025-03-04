@@ -1,0 +1,131 @@
+@import "../variables";
+
+.portfolio-page {
+    background-color: $color-background;
+    color: $color-text;
+
+    /* Sekcja hero */
+    .hero-section {
+        position: relative;
+        width: 100%;
+        height: 90vh; // decydujesz, jak duże ma być okno z showreelem
+        overflow: hidden;
+
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            // video {
+            //     width: 100%;
+            //     height: 100%;
+            //     object-fit: cover;
+            // }
+
+            .showreel-iframe {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        }
+
+        .animated-banner {
+            position: absolute;
+            top: 50%;
+            left: -100%;
+            width: 100%;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-accent-gold;
+            font-family: $font-heading;
+            font-size: 3rem;
+            animation: slideIn 1.5s ease-out forwards,
+                hold 2s ease-out 1.5s forwards,
+                slideOut 1s ease-in 3.5s forwards;
+            z-index: 2; // Pamiętaj, by baner był nad wideo
+        }
+    }
+
+    /* Portfolio categories (reszta strony) */
+    .portfolio-content {
+        padding: 0 2rem;
+        padding-bottom: 3rem;
+
+        .portfolio-category {
+            margin: 60px 0;
+            text-align: center;
+
+            h2 {
+                font-family: $font-heading;
+                color: $color-accent-blue;
+                font-size: 2.8rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                font-family: $font-heading;
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+                color: $color-text;
+            }
+
+            .video-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .video-wrapper {
+                aspect-ratio: 16 / 9;
+                background-color: $color-secondary;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+/* Animacje banera */
+@keyframes slideIn {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes hold {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
