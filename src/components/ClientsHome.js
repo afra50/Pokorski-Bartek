@@ -1,13 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import polsatGamesLogo from "../assets/logos/polsat-games-logo.png";
 import frenzyLogo from "../assets/logos/frenzy-logo.webp";
 import digitalDragonsLogo from "../assets/logos/digital-dragons.png";
-import grafLogo from "../assets/logos/graf.jpg";
+import cdProjektLogo from "../assets/logos/cd-projekt.png";
+import samsungLogo from "../assets/logos/samsung.png";
 import kiaLogo from "../assets/logos/kia-logo.png";
 import ineaLogo from "../assets/logos/inea-logo.png";
 import kitkatLogo from "../assets/logos/kitkat-logo.png";
-import kinguinLogo from "../assets/logos/kinguin-logo.png";
-import mightyKoiLogo from "../assets/logos/mighty-koi.png";
 import "../styles/ClientsHome.scss";
 
 function ClientsHome() {
@@ -23,15 +23,19 @@ function ClientsHome() {
       logo: digitalDragonsLogo,
       url: "https://digitaldragons.pl/",
     },
+    {
+      name: "CD Projekt Red",
+      logo: cdProjektLogo,
+      url: "https://www.cdprojekt.com/",
+    },
+    {
+      name: "Samsung",
+      logo: samsungLogo,
+      url: "https://www.samsung.com/",
+    },
     { name: "Kia", logo: kiaLogo, url: "https://www.kia.com/" },
     { name: "Inea", logo: ineaLogo, url: "https://www.inea.pl/" },
     { name: "KitKat", logo: kitkatLogo, url: "https://www.kitkat.pl/" },
-    { name: "KinGuin", logo: kinguinLogo, url: "https://www.kinguin.net/" },
-    {
-      name: "Mighty Koi",
-      logo: mightyKoiLogo,
-      url: "https://www.mighty-koi.com",
-    },
   ];
 
   return (
@@ -51,7 +55,9 @@ function ClientsHome() {
             </div>
           ))}
         </div>
-        <button className="cta-button">See More</button>
+        <Link to="/portfolio" className="cta-button">
+          See More
+        </Link>
       </div>
     </section>
   );

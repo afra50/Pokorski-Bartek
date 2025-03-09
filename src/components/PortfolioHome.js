@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/PortfolioHome.scss";
 
 function PortfolioHome() {
@@ -41,7 +42,9 @@ function PortfolioHome() {
             </div>
           ))}
         </div>
-        <button className="cta-button">More videos</button>
+        <Link to="/portfolio" className="cta-button">
+          More Videos
+        </Link>
       </div>
     </section>
   );

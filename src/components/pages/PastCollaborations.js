@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from "react";
 import polsatGamesLogo from "../../assets/logos/polsat-games-logo.png";
 import frenzyLogo from "../../assets/logos/frenzy-logo.webp";
 import digitalDragonsLogo from "../../assets/logos/digital-dragons.png";
-import grafLogo from "../../assets/logos/graf.jpg";
+import cdProjektLogo from "../../assets/logos/cd-projekt.png";
+import samsungLogo from "../../assets/logos/samsung.png";
 import kiaLogo from "../../assets/logos/kia-logo.png";
 import ineaLogo from "../../assets/logos/inea-logo.png";
 import kitkatLogo from "../../assets/logos/kitkat-logo.png";
-import kinguinLogo from "../../assets/logos/kinguin-logo.png";
 import mightyKoiLogo from "../../assets/logos/mighty-koi.png";
 import "../../styles/pages/PastCollaborations.scss";
 
@@ -33,6 +33,20 @@ const clients = [
       "I worked with Digital Dragons, one of the most prestigious gaming industry events in Europe. I delivered premium audiovisual assets for the Digital Dragons Awards ceremony, editing game trailers for the nominees and winners video sections and audiovisual work for the entire show. The project involved coordination with industry experts to ensure a polished end product that would resonate with gaming enthusiasts around the world.",
   },
   {
+    name: "CD Projekt Red",
+    logo: cdProjektLogo,
+    url: "https://www.cdprojekt.com/",
+    description:
+      "I cooperated with CD PROJEKT RED, a renowned polish video game developer by providing high-end video content related to their products. I delivered high-quality audiovisual material for the TV Premiere of 'Cyberpunk 2077' and provided editorial media related to a scholarship and mentoring programme called 'Dziewczyny w grze'. I helped CD PROJEKT RED increase their audience reach through quality visuals and storytelling.",
+  },
+  {
+    name: "Samsung",
+    logo: samsungLogo,
+    url: "https://www.samsung.com/",
+    description:
+      "I partnered with Samsung by bringing together technology and e-sports championships. I focused on creating complex and entertaining montages that appealed to a wide audience. My role included editing media for the League of Legends tournament called 'Samsung Galaxy Ultraliga' and creating branded content in the form of unboxing videos for their new range of smartphones.",
+  },
+  {
     name: "Kia",
     logo: kiaLogo,
     url: "https://www.kia.com/",
@@ -52,13 +66,6 @@ const clients = [
     url: "https://www.kitkat.pl/",
     description:
       "I edited branded video content for KitKat, focusing on integrating the product naturally into gaming and digital entertainment settings. I developed creative advertisements and event-based promotional materials. I ensured the content matched KitKat's fun and relaxed brand image while appealing to the esports' community.",
-  },
-  {
-    name: "KinGuin",
-    logo: kinguinLogo,
-    url: "https://www.kinguin.net/",
-    description:
-      "I worked on corporate content for Kinguin, an online marketplace for gaming products. I was responsible for the post-production of a series of videos about Kinguin's partnership with Google. I helped Kinguin strengthen their connection with its partner through high-value visuals and storytelling.",
   },
   {
     name: "Mighty Koi",

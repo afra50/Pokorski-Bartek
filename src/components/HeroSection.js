@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/HeroSection.scss";
 
 function HeroSection() {
@@ -8,7 +9,9 @@ function HeroSection() {
         <h1 className="name">Pokorski Bartłomiej</h1>
         <p className="title">Professional Video Editor</p>
         <p className="subtitle">Editing that elevates your story.</p>
-        <button className="cta-button">See My Portfolio</button>
+        <Link to="/portfolio" className="cta-button">
+          See My portfolio
+        </Link>
       </div>
     </section>
   );
