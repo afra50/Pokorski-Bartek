@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Pokorski-Bartek/static/css/main.07e538e0.css",
-    "main.js": "/Pokorski-Bartek/static/js/main.b70d528f.js",
+    "main.css": "/Pokorski-Bartek/static/css/main.9d61819a.css",
+    "main.js": "/Pokorski-Bartek/static/js/main.f2fea0b5.js",
     "static/media/portfolio_home.jpg": "/Pokorski-Bartek/static/media/portfolio_home.596d81e084de919c5823.jpg",
     "static/media/about_home.jpg": "/Pokorski-Bartek/static/media/about_home.9f197e71bd869659d14f.jpg",
     "static/media/bartek.jpg": "/Pokorski-Bartek/static/media/bartek.5d0260dabf5bf3e839c2.jpg",
     "static/media/kia-logo.png": "/Pokorski-Bartek/static/media/kia-logo.59a50cb9061b3718337f.png",
     "static/media/hero_section.jpg": "/Pokorski-Bartek/static/media/hero_section.bbf88631d9ee4a7a369f.jpg",
-    "static/media/graf.jpg": "/Pokorski-Bartek/static/media/graf.5d8830de61211dddb390.jpg",
     "static/media/polsat-games-logo.png": "/Pokorski-Bartek/static/media/polsat-games-logo.353ea04544756a420fc5.png",
     "static/media/mighty-koi.png": "/Pokorski-Bartek/static/media/mighty-koi.c9b8c6f58c1649ae8574.png",
     "static/media/kitkat-logo.png": "/Pokorski-Bartek/static/media/kitkat-logo.1153bea00c92f0525bb1.png",
+    "static/media/cd-projekt.png": "/Pokorski-Bartek/static/media/cd-projekt.c3d16ccbf862106c247e.png",
+    "static/media/samsung.png": "/Pokorski-Bartek/static/media/samsung.63791a9e241f4933eaeb.png",
     "static/media/digital-dragons.png": "/Pokorski-Bartek/static/media/digital-dragons.37bb7002495aab1f6707.png",
-    "static/media/kinguin-logo.png": "/Pokorski-Bartek/static/media/kinguin-logo.e800697128e16d5a3097.png",
     "static/media/inea-logo.png": "/Pokorski-Bartek/static/media/inea-logo.2b1c4ac0c096d5b19f1b.png",
     "static/media/frenzy-logo.webp": "/Pokorski-Bartek/static/media/frenzy-logo.42afff0a9812a70a8a8d.webp",
     "static/media/PB_trans.svg": "/Pokorski-Bartek/static/media/PB_trans.d6a280fb6348698c3335.svg",
@@ -21,11 +21,11 @@
     "static/media/slick.ttf": "/Pokorski-Bartek/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Pokorski-Bartek/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Pokorski-Bartek/index.html",
-    "main.07e538e0.css.map": "/Pokorski-Bartek/static/css/main.07e538e0.css.map",
-    "main.b70d528f.js.map": "/Pokorski-Bartek/static/js/main.b70d528f.js.map"
+    "main.9d61819a.css.map": "/Pokorski-Bartek/static/css/main.9d61819a.css.map",
+    "main.f2fea0b5.js.map": "/Pokorski-Bartek/static/js/main.f2fea0b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.07e538e0.css",
-    "static/js/main.b70d528f.js"
+    "static/css/main.9d61819a.css",
+    "static/js/main.f2fea0b5.js"
   ]
 }
