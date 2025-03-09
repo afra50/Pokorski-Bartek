@@ -8,7 +8,7 @@
     .hero-section {
         position: relative;
         width: 100%;
-        height: 90vh; // decydujesz, jak duże ma być okno z showreelem
+        height: 90vh;
         overflow: hidden;
 
         .video-background {
@@ -18,24 +18,16 @@
             width: 100%;
             height: 100%;
 
-            // video {
-            //     width: 100%;
-            //     height: 100%;
-            //     object-fit: cover;
-            // }
-
             .showreel-iframe {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
             }
-
         }
 
         .animated-banner {
             position: absolute;
             top: 50%;
-            left: -100%;
             width: 100%;
             height: 200px;
             background-color: rgba(0, 0, 0, 0.8);
@@ -45,14 +37,20 @@
             color: $color-accent-gold;
             font-family: $font-heading;
             font-size: 3rem;
-            animation: slideIn 1.5s ease-out forwards,
-                hold 2s ease-out 1.5s forwards,
-                slideOut 1s ease-in 3.5s forwards;
-            z-index: 2; // Pamiętaj, by baner był nad wideo
+            animation: fadeOutBanner 4s linear 2s forwards;
+            z-index: 2;
+
+            h1 {
+                color: $color-accent-gold;
+                font-family: $font-heading;
+                font-size: 3rem;
+                white-space: nowrap;
+                animation: textSlideOut 3s linear 1.5s forwards;
+            }
         }
     }
 
-    /* Portfolio categories (reszta strony) */
+    /* Portfolio categories */
     .portfolio-content {
         padding: 0 2rem;
         padding-bottom: 3rem;
@@ -76,13 +74,23 @@
             }
 
             .video-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-                gap: 20px;
+                display: flex;
+                /* Użycie flexboxa zamiast grid */
+                flex-wrap: wrap;
+                /* Pozwala elementom przechodzić do nowego wiersza */
                 justify-content: center;
+                /* Wyśrodkowanie elementów */
+                align-items: center;
+                /* Wyśrodkowanie w pionie */
+                gap: 20px;
+                /* Odstęp między elementami */
             }
 
             .video-wrapper {
+                flex: 1 1 calc(33.333% - 20px);
+                /* Automatyczna szerokość, max 3 w rzędzie */
+                max-width: 400px;
+                /* Ograniczenie szerokości */
                 aspect-ratio: 16 / 9;
                 background-color: $color-secondary;
                 border-radius: 10px;
@@ -99,33 +107,26 @@
     }
 }
 
-/* Animacje banera */
-@keyframes slideIn {
-    from {
-        left: -100%;
+/* 🔵 Animacja tekstu (przesuwa się w prawo i zanika) */
+@keyframes textSlideOut {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
     }
 
-    to {
-        left: 0;
-    }
-}
-
-@keyframes hold {
-    from {
-        left: 0;
-    }
-
-    to {
-        left: 0;
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
     }
 }
 
-@keyframes slideOut {
-    from {
-        left: 0;
+/* ⚫ Animacja zanikania całego banera */
+@keyframes fadeOutBanner {
+    0% {
+        opacity: 1;
     }
 
-    to {
-        left: 100%;
+    100% {
+        opacity: 0;
     }
 }

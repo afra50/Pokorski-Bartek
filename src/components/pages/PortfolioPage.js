@@ -5,31 +5,41 @@ const categories = [
   {
     title: "Event Coverage",
     description: "Highlights from events, galas and conferences.",
-    videos: [
-      "abc123", // <-- Tutaj dajesz prawdziwe ID z YouTube
-      "def456",
-      "ghi789",
-    ],
+    videos: ["3Ajd9LFiUpE", "p22SLL2NcLw", "xzah2D6XkBM"],
   },
   {
-    title: "Promos & Commercials",
-    description: "Promotional content and commercials for brands and TV.",
-    videos: ["jkl012", "mno345", "pqr678"],
+    title: "Branded Content",
+    description:
+      "Creative storytelling and promotional videos tailored to enhance brand identity.",
+    videos: ["EI00ILqdpT4", "OFmiwh5Ene0", "iMjJH-BduA4"],
+  },
+  {
+    title: "Commercials",
+    description:
+      "High-quality TV and digital advertisements crafted for maximum impact and engagement.",
+    videos: ["Nf4_nUz0NU0", "ajRtUZuFp5s", "M747vikeJUA"],
   },
   {
     title: "Talk Shows & Interviews",
     description: "Talk show episodes, interviews and studio segments.",
-    videos: ["stu901", "vwx234"],
+    videos: ["x85DGCQf08A", "lBkebsyZlUc", "G6aZe_2S0vk", "y1K2lfigry8"],
   },
   {
-    title: "Street Surveys",
-    description: "Dynamic street interviews and vox pops.",
-    videos: ["yz5678", "abc91011"],
+    title: "Editorial Content",
+    description:
+      "Stylized and curated visual content designed for media and digital publications.",
+    videos: ["w6qOu1NTyoQ", "YhJenb-1wCI", "EulgNyySpSw"],
+  },
+  {
+    title: "Variety Shows",
+    description:
+      "Entertaining and diverse productions featuring comedy, talent, and game show elements.",
+    videos: ["nA9FSg-sK_k", "wedugyGBzD4", "YAc78a49E3Q"],
   },
   {
     title: "YouTube Content",
     description: "Edits from my own YouTube channel and collaborations.",
-    videos: ["lmn1213", "opq1415", "rst1617", "uvw1819"],
+    videos: ["bw-VnUYjEdg", "7B-LcXwS4h4", "iIwK2pxeRoU", "qNZcJdaQV0g"],
   },
 ];
 
@@ -55,7 +65,7 @@ function PortfolioPage() {
           </video> */}
           <iframe
             className="showreel-iframe"
-            src="https://www.youtube.com/embed/_XhyesvLrOM?autoplay=1&mute=1&loop=1&playlist=_XhyesvLrOM&controls=0&modestbranding=1"
+            src="https://www.youtube.com/embed/_XhyesvLrOM?autoplay=1&loop=1&playlist=_XhyesvLrOM&controls=0&modestbranding=1"
             title="Showreel"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
