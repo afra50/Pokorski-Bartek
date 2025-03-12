@@ -19,6 +19,10 @@
         flex-shrink: 0;
     }
 
+    #burger {
+        display: none;
+    }
+
     span {
         color: $color-text;
     }
@@ -50,6 +54,57 @@
                     border-bottom: 2px solid $color-accent-gold;
                 }
             }
+        }
+    }
+}
+
+// Responsywność
+@media (max-width: 1024px) {
+    #main-nav {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+
+        #burger {
+            display: block;
+            font-size: 2rem;
+            cursor: pointer;
+            color: $color-text;
+            margin-right: 2rem;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            z-index: 3;
+            background: $color-background;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 1rem 0;
+            transform: translateY(-100%);
+            opacity: 0;
+            visibility: hidden;
+            transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s;
+
+            .menu-item {
+                padding: 1rem;
+            }
+        }
+
+        span {
+            display: none;
+        }
+
+        // Aktywne menu
+        .menu.show {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
         }
     }
 }

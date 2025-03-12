@@ -99,3 +99,77 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    #about-section {
+        padding: 3rem 1.5rem;
+
+        .about-content {
+            max-width: 90%;
+
+            h2 {
+                font-size: 3rem;
+                padding: 0.8rem 3rem;
+            }
+
+            .description {
+                font-size: 0.95rem;
+                line-height: 1.6;
+                margin-bottom: 1.5rem;
+            }
+
+            .skills-list {
+                gap: 0.8rem;
+
+                li {
+                    font-size: 0.95rem;
+                    padding-left: 1.5rem;
+
+                    &:before {
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 0.6rem 1.2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #about-section {
+        padding: 3rem 1rem;
+        text-align: center;
+
+        .about-content {
+            h2 {
+                font-size: 2.5rem;
+                padding: 0.5rem 2rem;
+            }
+
+            .description {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+
+            .skills-list {
+                flex-direction: column;
+                align-items: center;
+
+                li {
+                    font-size: 0.9rem;
+                    padding-left: 0;
+                    text-align: center;
+                }
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
+}

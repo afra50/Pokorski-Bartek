@@ -1,50 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Header.scss";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav id="main-nav">
       <div className="logo-container"></div>
       <span>Pokorski Bartek</span>
-      <ul className="menu">
+      <i
+        className="fa-solid fa-bars"
+        id="burger"
+        onClick={() => setMenuOpen(!menuOpen)}
+      ></i>
+      <ul className={`menu ${menuOpen ? "show" : ""}`}>
         <li className="menu-item">
-          <NavLink
-            to="/"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/" onClick={() => setMenuOpen(false)}>
             Home
           </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink
-            to="/about"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>
             About
           </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink
-            to="/portfolio"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/portfolio" onClick={() => setMenuOpen(false)}>
             Portfolio
           </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink
-            to="/past-collaborations"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/past-collaborations" onClick={() => setMenuOpen(false)}>
             Past Collaborations
           </NavLink>
         </li>
         <li className="menu-item">
-          <NavLink
-            to="/on-youtube"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
+          <NavLink to="/on-youtube" onClick={() => setMenuOpen(false)}>
             On YouTube
           </NavLink>
         </li>

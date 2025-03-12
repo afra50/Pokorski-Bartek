@@ -96,13 +96,70 @@
     }
 }
 
-@media (max-width: 768px) {
-    .project-grid {
-        flex-direction: column; // Projekty w jednej kolumnie
-        align-items: center; // Wyśrodkowanie kart
-    }
+@media (max-width: 1024px) {
+    #portfolio-section {
+        padding: 3rem 1.5rem;
 
-    .project-card {
-        width: 100%; // Pełna szerokość dla małych ekranów
+        .portfolio-content {
+            max-width: 90%;
+
+            h2 {
+                font-size: 3rem;
+                padding: 0.8rem 3rem;
+                margin-bottom: 2rem;
+            }
+
+            .project-grid {
+                gap: 1.5rem; // Mniejsza przerwa między projektami
+                margin-bottom: 1.5rem;
+            }
+
+            .project-card {
+                width: 80%; // Karty zajmują większą część ekranu
+
+                iframe {
+                    height: 270px !important;
+                }
+            }
+
+            .cta-button {
+                font-size: 1.3rem;
+                padding: 1rem 1.5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #portfolio-section {
+        padding: 3rem 1rem;
+        text-align: center;
+
+        .portfolio-content {
+            h2 {
+                font-size: 2rem;
+                padding: 0.5rem 2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .project-grid {
+                flex-direction: column; // Projekty układane pionowo
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .project-card {
+                width: 100%; // Pełna szerokość na mobilnych
+
+                iframe {
+                    height: 200px !important;
+                }
+            }
+
+            .cta-button {
+                font-size: 1rem;
+                padding: 0.5rem 1rem;
+            }
+        }
     }
 }
