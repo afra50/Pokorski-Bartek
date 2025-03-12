@@ -55,7 +55,7 @@ function ClientsHome() {
             </div>
           ))}
         </div>
-        <Link to="/portfolio" className="cta-button">
+        <Link to="/past-collaborations" className="cta-button">
           See More
         </Link>
       </div>

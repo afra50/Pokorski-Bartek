@@ -21,7 +21,7 @@ function PortfolioHome() {
   return (
     <section id="portfolio-section">
       <div className="portfolio-content">
-        <h2>My featured editions</h2>
+        <h2>My featured creations</h2>
         <div className="project-grid">
           {projects.map((project, index) => (
             <div className="project-card" key={index}>
