@@ -103,7 +103,9 @@ function YouTubePage() {
 
         // Jeśli liczba filmów jest mniejsza lub równa liczbie widocznych slajdów,
         // wyłączamy funkcjonalność slidera.
-        const disableSlider = playlist.videos.length <= currentSlidesToShow;
+        const disableSlider =
+          (isDesktop && playlist.videos.length <= 2) ||
+          (!isDesktop && playlist.videos.length <= 1);
 
         // Modyfikujemy ustawienia dla bieżącego playlista.
         const sliderSettings = {

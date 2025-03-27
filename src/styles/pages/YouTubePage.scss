@@ -142,14 +142,26 @@
     cursor: pointer !important;
 }
 
-/* Dostosowanie pozycji strzałek dla ekranów mobilnych */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .slick-prev {
-        left: -30px !important;
+        left: -40px !important;
     }
 
     .slick-next {
         right: -30px !important;
+    }
+}
+
+/* Dostosowanie pozycji strzałek dla ekranów mobilnych */
+@media (max-width: 767px) {
+    .slick-prev {
+        left: -10px !important;
+        top: 120% !important;
+    }
+
+    .slick-next {
+        right: 0px !important;
+        top: 120% !important;
     }
 }
 
@@ -176,6 +188,96 @@
             color: $color-accent-gold !important;
             opacity: 1;
             cursor: pointer !important;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .youtube-container {
+        padding: 2rem 1rem;
+
+        .youtube-title {
+            font-size: 3rem;
+        }
+
+        .youtube-description {
+            font-size: 1.1rem;
+        }
+
+        .playlist-section {
+            padding: 2rem 3rem;
+
+            .playlist-title {
+                font-size: 1.5rem;
+            }
+
+            .playlist-description {
+                font-size: 1rem;
+            }
+
+            .playlist-link {
+                font-size: 1rem;
+                padding: 6px 12px;
+            }
+        }
+
+        .youtube-footer {
+
+            .editing-link,
+            .youtube-channel-link {
+                font-size: 1.1rem;
+                padding: 8px 16px;
+                margin: 10px 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .youtube-container {
+        padding: 1.5rem 1rem;
+
+        .youtube-title {
+            font-size: 2rem;
+        }
+
+        .youtube-description {
+            font-size: 1rem;
+        }
+
+        .playlist-section {
+            padding: 1.5rem;
+
+            .playlist-title {
+                font-size: 1.3rem;
+            }
+
+            .playlist-description {
+                font-size: 0.95rem;
+            }
+
+            .playlist-link {
+                font-size: 0.95rem;
+                padding: 5px 10px;
+            }
+
+            // 🔽 DODAJ TO TUTAJ
+            .video-slider {
+                .video-container {
+                    padding-top: 70%; // zwiększona wysokość na telefonie
+                }
+            }
+        }
+
+        .youtube-footer {
+            flex-direction: column;
+
+            .editing-link,
+            .youtube-channel-link {
+                font-size: 1rem;
+                padding: 8px 14px;
+                margin: 8px 0;
+            }
         }
     }
 }
