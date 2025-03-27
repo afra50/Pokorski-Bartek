@@ -239,6 +239,19 @@
                 padding: 3rem;
             }
         }
+
+        .programs-section {
+
+            ul {
+                font-size: 0.85rem;
+
+                li {
+                    flex: 1 1 calc(33.333% - 1rem);
+                    max-width: 30vw;
+                    min-width: 25vw;
+                }
+            }
+        }
     }
 }
 
@@ -260,14 +273,19 @@
         }
 
         .programs-section {
+            h2 {
+                justify-self: center;
+            }
 
             ul {
-                font-size: 0.7rem;
+                font-size: 1.2rem;
+                gap: 1rem;
 
                 li {
-                    flex: 1 1 calc(33.333% - 1.5rem);
-                    max-width: 30vw;
-                    min-width: 20vw;
+                    flex: 1 1 calc(50% - 1rem);
+                    max-width: 60vw;
+                    min-width: 40vw;
+                    text-align: center;
                 }
             }
         }
@@ -295,13 +313,17 @@
         }
 
         .programs-section {
+
             ul {
+                flex-direction: column;
+                align-items: center;
                 font-size: 1rem;
+                gap: 1rem;
 
                 li {
-                    flex: 1 1 calc(50% - 1.5rem);
-                    max-width: 60vw;
-                    min-width: 30vw;
+                    flex: 1 1 100%;
+                    max-width: 90%;
+                    min-width: 70%;
                 }
             }
         }
