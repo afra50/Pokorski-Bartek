@@ -23,7 +23,7 @@ const clients = [
     logo: frenzyLogo,
     url: "https://frenzy.pl/",
     description:
-      "I contributed to various projects at Frenzy, a leading full-service production house. My role included video editing, post-production, and motion graphics for numerous TV shows, including 'Gry Komputerowe Show,' 'LEVEL 11,' and 'FAUX PAUX.'. I also assisted in the creation of promotional content and social media videos aimed at increasing engagement within the gaming and esports community.",
+      "I contributed to various projects at Frenzy, a leading full-service production house. My role included video editing, post-production, and motion graphics for numerous TV shows, including 'Gry Komputerowe Show', 'LEVEL 11' and 'FAUX PAUX'. I also assisted in the creation of promotional content and social media videos aimed at increasing engagement within the gaming and esports community.",
   },
   {
     name: "Digital Dragons",
